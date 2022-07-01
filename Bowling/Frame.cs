@@ -12,26 +12,24 @@ namespace Bowling
         private int secoundRoll;
         private Boolean strike;
         private Boolean spare;
-        public Frame(int FirstRoll, int SecoundRoll)
-        {
-            firstRoll = FirstRoll;
-            if (FirstRoll == 10)
-                strike = true;
-            else
-            {
-                secoundRoll = SecoundRoll;
-                if(FirstRoll+SecoundRoll == 10)
-                    spare = true;
-            }
-        }
-
-        public int GetFirstRoll
+        public Frame() { }
+        public int FirstRoll
         {
             get { return firstRoll; }
+            set
+            {
+                firstRoll = value;
+                StrikeSpareCheck();
+            }
         }
-        public int GetSecoundRoll
+        public int SecoundRoll
         {
             get { return secoundRoll; }
+            set
+            {
+                secoundRoll = value;
+                StrikeSpareCheck();  
+            }
         }
         public Boolean IsStrike
         {
@@ -40,6 +38,18 @@ namespace Bowling
         public Boolean IsSpare
         {
             get { return spare; }
+        }
+        private void StrikeSpareCheck()
+        {
+            strike = false;
+            spare = false;
+            if (firstRoll == 10)
+                strike = true;
+            else
+            {
+                if(firstRoll+ secoundRoll == 10)
+                    spare=true;
+            }
         }
     }
 }
