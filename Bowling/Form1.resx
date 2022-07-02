@@ -59,7 +59,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 218</value>
+    <value>45, 355</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -81,6 +81,243 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="Zawodnik.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Zawodnik.HeaderText" xml:space="preserve">
+    <value>Zawodnik</value>
+  </data>
+  <data name="Zawodnik.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <metadata name="Wynik.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Wynik.HeaderText" xml:space="preserve">
+    <value>Wynik</value>
+  </data>
+  <data name="Wynik.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <metadata name="R1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R1.HeaderText" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="R1.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R2.HeaderText" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="R2.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R3.HeaderText" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="R3.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R4.HeaderText" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="R4.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R5.HeaderText" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="R5.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R6.HeaderText" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="R6.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R7.HeaderText" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="R7.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R8.HeaderText" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="R8.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R9.HeaderText" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="R9.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R10.HeaderText" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="R10.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R11.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R11.HeaderText" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="R11.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R12.HeaderText" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="R12.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R13.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R13.HeaderText" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="R13.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R14.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R14.HeaderText" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="R14.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R15.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R15.HeaderText" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="R15.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R16.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R16.HeaderText" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="R16.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R17.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R17.HeaderText" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="R17.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R18.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R18.HeaderText" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="R18.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R19.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R19.HeaderText" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="R19.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R20.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R20.HeaderText" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="R20.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R21.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R21.HeaderText" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="R21.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="R22.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="R22.HeaderText" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="R22.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 33</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>904, 258</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -90,10 +327,154 @@
     <value>7, 15</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
+    <value>978, 450</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Bowling</value>
+  </data>
+  <data name="&gt;&gt;Zawodnik.Name" xml:space="preserve">
+    <value>Zawodnik</value>
+  </data>
+  <data name="&gt;&gt;Zawodnik.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Wynik.Name" xml:space="preserve">
+    <value>Wynik</value>
+  </data>
+  <data name="&gt;&gt;Wynik.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R1.Name" xml:space="preserve">
+    <value>R1</value>
+  </data>
+  <data name="&gt;&gt;R1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R2.Name" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="&gt;&gt;R2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R3.Name" xml:space="preserve">
+    <value>R3</value>
+  </data>
+  <data name="&gt;&gt;R3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R4.Name" xml:space="preserve">
+    <value>R4</value>
+  </data>
+  <data name="&gt;&gt;R4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R5.Name" xml:space="preserve">
+    <value>R5</value>
+  </data>
+  <data name="&gt;&gt;R5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R6.Name" xml:space="preserve">
+    <value>R6</value>
+  </data>
+  <data name="&gt;&gt;R6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R7.Name" xml:space="preserve">
+    <value>R7</value>
+  </data>
+  <data name="&gt;&gt;R7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R8.Name" xml:space="preserve">
+    <value>R8</value>
+  </data>
+  <data name="&gt;&gt;R8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R9.Name" xml:space="preserve">
+    <value>R9</value>
+  </data>
+  <data name="&gt;&gt;R9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R10.Name" xml:space="preserve">
+    <value>R10</value>
+  </data>
+  <data name="&gt;&gt;R10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R11.Name" xml:space="preserve">
+    <value>R11</value>
+  </data>
+  <data name="&gt;&gt;R11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R12.Name" xml:space="preserve">
+    <value>R12</value>
+  </data>
+  <data name="&gt;&gt;R12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R13.Name" xml:space="preserve">
+    <value>R13</value>
+  </data>
+  <data name="&gt;&gt;R13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R14.Name" xml:space="preserve">
+    <value>R14</value>
+  </data>
+  <data name="&gt;&gt;R14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R15.Name" xml:space="preserve">
+    <value>R15</value>
+  </data>
+  <data name="&gt;&gt;R15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R16.Name" xml:space="preserve">
+    <value>R16</value>
+  </data>
+  <data name="&gt;&gt;R16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R17.Name" xml:space="preserve">
+    <value>R17</value>
+  </data>
+  <data name="&gt;&gt;R17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R18.Name" xml:space="preserve">
+    <value>R18</value>
+  </data>
+  <data name="&gt;&gt;R18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R19.Name" xml:space="preserve">
+    <value>R19</value>
+  </data>
+  <data name="&gt;&gt;R19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R20.Name" xml:space="preserve">
+    <value>R20</value>
+  </data>
+  <data name="&gt;&gt;R20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R21.Name" xml:space="preserve">
+    <value>R21</value>
+  </data>
+  <data name="&gt;&gt;R21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R22.Name" xml:space="preserve">
+    <value>R22</value>
+  </data>
+  <data name="&gt;&gt;R22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frmBowling</value>
