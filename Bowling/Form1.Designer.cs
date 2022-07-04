@@ -55,6 +55,7 @@
             this.R20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.R21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.R22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -245,10 +246,18 @@
             this.R22.Name = "R22";
             this.R22.ReadOnly = true;
             // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // frmBowling
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Name = "frmBowling";
@@ -285,5 +294,6 @@
         private DataGridViewTextBoxColumn R20;
         private DataGridViewTextBoxColumn R21;
         private DataGridViewTextBoxColumn R22;
+        private Button button2;
     }
 }
