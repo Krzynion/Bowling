@@ -8,48 +8,24 @@ namespace Bowling
 {
     internal class Frame
     {
-        private int firstRoll;
-        private int secoundRoll;
-        private Boolean strike;
-        private Boolean spare;
-        public Frame() { }
-        public int FirstRoll
+        public Frame(string FirstRoll,String SecoundRoll,bool Strike, bool Spare)
         {
-            get { return firstRoll; }
-            set
-            {
-                firstRoll = value;
-                StrikeSpareCheck();
-            }
+            this.Strike = Strike;
+            this.Spare = Spare;
+            this.FirstRoll = FirstRoll;
+            this.SecoundRoll = SecoundRoll;
+            int firstRollInt = 0;
+            int secoundRollInt = 0;
+            int.TryParse(FirstRoll, out firstRollInt);
+            int.TryParse(SecoundRoll,out secoundRollInt);
+            this.FramePoints = firstRollInt+secoundRollInt;
+            
         }
-        public int SecoundRoll
-        {
-            get { return secoundRoll; }
-            set
-            {
-                secoundRoll = value;
-                StrikeSpareCheck();  
-            }
-        }
-        public Boolean IsStrike
-        {
-            get { return strike; }
-        }
-        public Boolean IsSpare
-        {
-            get { return spare; }
-        }
-        private void StrikeSpareCheck()
-        {
-            strike = false;
-            spare = false;
-            if (firstRoll == 10)
-                strike = true;
-            else
-            {
-                if(firstRoll+ secoundRoll == 10)
-                    spare=true;
-            }
-        }
+        public string FirstRoll { get; }
+        public string SecoundRoll { get;  }
+        public bool Strike { get; }
+        public bool Spare { get; }
+        public int FramePoints { get; set; }
+        
     }
 }

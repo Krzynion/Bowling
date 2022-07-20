@@ -9,36 +9,21 @@ namespace Bowling
     internal class Player
     {
         private string _name;
-        private string[] _rolls;
-        public Player(string name, string[] rolls)
+        private List<Frame> _frames;
+        public Player(string name, List<Frame> frames)
         {
             _name = name;
-            _rolls = rolls;
+            _frames = frames;
+           
         }
         public string GetName { get { return _name; } }
-        public string[] GetRolls { get { return _rolls; } }
-        public string GetScore
+        public List<Frame> GetFrames { get { return _frames; } }
+        public string Score()
         {
-            get
-            {
-                int score = 0;
-                for(int x=0;x<10;x++)
-                {
-                    int roll1 = int.Parse(_rolls[x*2]);
-                    int roll2 = int.Parse(_rolls[x*2+1]);
-                    score = score + roll1 + roll2;
-                    if (roll1 == 10)
-                        score = score + int.Parse(_rolls[x*2 + 2]) + int.Parse(_rolls[x*2 + 3]);
-                    else
-                    {
-                        if (roll1 + roll2 == 10)
-                            score += int.Parse(_rolls[x*2 + 2]);
-
-                    }  
-
-                }
-                return score.ToString();
-            }
+            int scoreInt = 0;
+            for (int x = 0; x < 10; x++)
+                scoreInt += _frames[x].FramePoints;
+            return scoreInt.ToString();
         }
 
 
